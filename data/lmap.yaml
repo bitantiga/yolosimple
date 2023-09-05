@@ -1,0 +1,18 @@
+# insulator dataset
+#train: ../coco/images/train2017 # 118287 images
+#val: ../coco/images/val2017  # 5000 images
+#test: ../coco/images/test2017
+train: testdata/images/train # train images
+val: testdata/images/train # val images
+test: testdata/images/test # test images (optional)
+
+#train: C:\Users\sakura\person\YOLOV6/testdata/images/train
+#val: C:\Users\sakura\person\YOLOV6/testdata/images/train
+#test: C:\Users\sakura\person\YOLOV6/testdata/images/train
+# number of classes
+nc: 7
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+
+# class names
+names:  ['jyz_pl', 'sly_dmyw','xmbhyc','yw_gkxfw','yw_nc','xy','gbps']
